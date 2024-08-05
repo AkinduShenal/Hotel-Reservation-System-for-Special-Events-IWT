@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.packages {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.package {
+    display: flex;
+    justify-content: space-between; /* Distributes content horizontally */
+    width: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.package-part-1 {
+    margin-bottom: 10px; /* Space between heading and image */
+    margin-right: 30%; /* Add space to the right */
+}
+
+.package-part-1 img {
+    width: 300px; /* Adjust as needed */
+    height: 200px; /* Height will adjust proportionally */
+}
+.package-part-2-main {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.package-part-2 {
+ 
+    margin-top: 5%;
+    margin-left: 15px; /* Add space to the left */
+    
+}
+.package-part-2-B{
+    
+    margin-left: 60%; /* Add space to the left */
+   
+}
+.package-part-2-B a {
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    background-color: transparent; /* Transparent background */
+    color: #4CAF50; /* Green color */
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.package-part-2-B a:hover {
+    background-color: #4CAF50; /* Fills with green on hover */
+    color: white;
+}
+.package h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.package p {
+    line-height: 1.5;
+    margin-bottom: 10px
+}
+
+.bottom-button {
+        position: fixed;
+        left: 30%;
+        transform: translateX(-50%);
+        bottom: 30px;
+        font-size: 20px; /* Increase font size */
+        padding: 10px 20px;
+        background-color:#5c4e07; /* Dark blue background color */
+        color: white; /* White text color */
+        border: none; /* Remove default button border */
+        border-radius: 20px; /* Add rounded corners */
+        cursor: pointer; 
+    }
+    /* Heading styles */
+.bronze-heading {
+    color: #cd7f32; /* Bronze color */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.silver-heading {
+    color: #c0c0c0; /* Silver color */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gold-heading {
+    color: #ffd700; /* Gold color */
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}

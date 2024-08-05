@@ -1,0 +1,319 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1,
+h2 {
+  font-family: serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_space {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 15px 40px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.primary-btn {
+  background: #007bff;
+}
+
+.secondary-btn {
+  background: none;
+  border: 2px solid #fff;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+header {
+  height: 10vh;
+  line-height: 10vh;
+  padding: 0 10px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.navlinks li {
+  margin: 0 9px;
+  font-size: large;
+}
+
+.navlinks a {
+  color: #000;
+  transition: 0.5s;
+  padding: 12px;
+}
+
+.Navtop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.hall{
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #d7dbdf;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(220, 228, 233, 0.1);
+}
+
+.upload-image {
+  width: 70%;
+  height: auto;
+  display: block;
+}
+
+.hall-part-1 {
+  padding: 20px;
+}
+
+.hall-part-2-main {
+  padding: 20px;
+  flex: 1; /* Take up remaining space */
+}
+
+.book-now-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #9199e7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Add margin to separate from other details */
+}
+
+.book-now-btn:hover {
+  background-color: #ff4d3e;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  
+}
+
+
+.hall-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 10px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* payment */
+.container {
+  grid-template-columns: 30% 1fr;  
+  padding: 40px;
+}
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;  
+}
+
+.summary-box {
+  width: 40%;  
+  margin-right: 10px; 
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.summary-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.summary-box th,
+.summary-box td {
+  padding: 5px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.payment-details {
+  flex: 1;
+}
+
+.payment-details img {
+  width: 50px;
+  margin: 5px;
+  cursor: pointer;
+
+  /*border: 12px solid #ddd;  /* Added solid border for all cards */
+}
+.payment-details .card-image {
+  border-color: #007bff;  
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.cancel-button,
+.pay-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;  
+  padding-right: 20px;
+}
+
+.pay-button {
+  background-color: #007bff;  
+  color: #fff;  
+  border-radius: 5px;
+  padding: 10px 20px;  
+}
+.payment-form {
+  font-size: 18px;  
+  margin: 0 auto;
+}
+input[type="text"], input[type="number"] {
+  border-radius: 5px;
+  padding: 10px;  
+}
+#expmonth, #expyear {
+  border-radius: 5px;  
+  padding: 10px;  
+  border: 1px solid #ccc;  
+  font-family: Arial, sans-serif;  
+}
+
+#expmonth, #expyear:hover {
+  background-color: #fff;  
+}
+.expiry-container {
+  display: flex;  
+  flex-direction: row;  
+  align-items: center;  
+  margin-bottom: 10px;
+}
+
+.expiry-container label,
+.expiry-container select,
+.expiry-container input {
+  margin-right: 10px;  
+}
+

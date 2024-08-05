@@ -1,0 +1,47 @@
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Adjust as needed */
+}
+
+/* Make the image full height */
+img.center {
+    height: 70vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.partition {
+    width: 50%;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.partition-left {
+    background-color: #499ebb;
+    color: rgb(0, 0, 0);
+}
+
+.partition-right {
+    background-color: #0f41c2;
+}
+.bottom-button {
+    position: fixed;
+    left: 30%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    font-size: 20px; /* Increase font size */
+    padding: 10px 20px;
+    background-color:#270c58; /* Dark blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove default button border */
+    border-radius: 20px; /* Add rounded corners */
+    cursor: pointer; 
+}

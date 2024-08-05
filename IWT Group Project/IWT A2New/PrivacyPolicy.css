@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.privacy-policy {
+    border: 2px solid #010101;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: 20px;
+}
+
+.privacy-policy p {
+    margin-bottom: 10px;
+}
+
+.topic{
+    font-family: monospace;
+    font-size: 40px;
+    color: #333;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 25px;
+    color: #333;
+}
+
+.para{
+    font-family:Georgia;
+}

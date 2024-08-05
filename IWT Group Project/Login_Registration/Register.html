@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <!-- Content Section Start Here..-->
+    <div class="wrapper">
+		<h1>Sign Up</h1>
+		<form method="POST" action="register.php">
+			<input type="text" name="firstname" id="firstname" placeholder="First Name" required autocomplete="off">
+			<input type="text" name="lastname" id="lastname" placeholder="Last Name" required autocomplete="off">
+			<input type="text" name="username" id="username" placeholder="Username" required autocomplete="off">
+			<input type="email" name="email" id="email" placeholder="Email" required autocomplete="off">
+			<input type="password" name="pwd" id="pwd" placeholder="Password" required autocomplete="off">
+			<div class="terms">
+				<input type="checkbox" id="checkbox" required>
+				<label for="checkbox">I agree to thes <a href="#">Terms & Conditions</a></label>
+			</div>
+			<button type="submit" name="submitbtn" id="submitbtn">Sign up</button>
+		</form>
+		<div class="member">
+			Already a member? <a href="login.html"> Login Here</a>
+		</div>
+	</div>
+    <!-- Content Section End Here..-->
+
+</body>
+</html>
